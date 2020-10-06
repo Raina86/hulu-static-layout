@@ -1,76 +1,17 @@
-
-.toppart {
-    background-image: url("./assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg");
-    background-size: 300vh;
-    background-repeat: no-repeat;
-
-}
- 
-.h1{
-    line-height: 12px;
-    width: 15%;
-    font-size: 8pt;
-    font-family: tahoma;
-    position: absolute;
-    top: 10px;
-    right:10px;
-}
-
-.h2 {
-    line-height: 12px;
-    width: 40%;
-    font-size: 8pt;
-    font-family: tahoma;
-    position: absolute;
-    top: 10px;
-    right:10px;
-}
-cd
- .pic1 {
-     height: 100vh;
-     width: 6vh;
-     z-index: 1;     
-
- } 
-.pic2ribbon {    
-    padding-bottom: 0px 1px;
-    height: 300px; 
-    z-index:1;
-    width:100%;
-    height: 100%;
-    background: linear-gradient(to right, #000066 0%, #0033cc 100%);
-
-
-
-  
-
-
-    
-
-
-
-
-
-.pic2 {
-
-    height:100vh;
-    width:100vw;
-
-
-}
-
-.pic3{
-    height: 100vh;
-     width: 10vw;
-
-}
-
-
-
-
-.text{
-margin-top: -30%;
-
-
-}
-
+                    .container {
+                        top: 10px;
+                        text-align: right;
+                        color: white;
+                        background-color: black;
+                    }
+                    
+                    .top {
+                        background-image: url("./assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg");
+                        min-height: 660px;
+                        color: white;
+                    }
+                    
+                    .ribbon {
+                        background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+                        color: white;
+                    }

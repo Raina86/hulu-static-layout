@@ -4,207 +4,286 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>background image</title>
-
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <!---BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Static layout</title>
 </head>
 
 <body>
-    <style>
-        * {
-            margin: 0;
-        }
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOG IN </a>
+    </nav>
 
-        body {
-            font: size 20;
-        }
+    <div class="top">
+        <!--<img src="./assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg" class=" img-fluid ">-->
 
-        .topport {
-            position: relative;
-            width: 90%;
-            margin: 0 auto;
-        }
+        <div class="heading-content text-center">
+            <h6>TRY UP TO ONE MONTH FREE</h6>
+            <img src="./assets/hulu_logo.png ">
+            <h3>Watch thousands of shows and movies, with plans starting at $5.99/month. </h3>
+            <h4>HBO Max™, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.</h4>
+            <h5>START YOUR FREE TRIAL</h5>
+            <P>Free trial for new & eligible returning subscribers only.</P>
 
-        .topport img {
-            width: 100%;
-        }
-
-        .h1 {
-            color: white;
-            margin-top: 1 px;
-            font-size: small;
-            text-shadow: 5px 5px 10px;
-        }
-
-        .h2 {
-            color: green;
-            width: 100%;
-            text-align: center;
-            font: size 2;
-            ;
-            text-shadow: 5px 5px 10px;
-        }
-
-        .p1 {
-            color: white;
-            text-align: center;
-            font-size: x-large;
-            text-shadow: 5px 5px 10px;
-        }
-
-        .p2 {
-            color: white;
-            width: 100%;
-            text-align: center;
-            font-size: small;
-            text-shadow: 5px 5px 10px;
-        }
-
-        .p3 {
-            color: white;
-            width: 100%;
-            text-align: center;
-            font-size: small;
-            text-shadow: 5px 5px 10 px;
-            text-shadow: white;
-        }
-
-        .p4 {
-            color: white;
-            width: 100%;
-            text-align: center;
-            font-size: 1;
-            text-shadow: 5px 5px 10px;
-        }
-    </style>
-    <div class="toppart">
-        <img class="pic1" src="assets/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg">;
-        <div class="text">
-            <div class="h1">
-                <h1>LOG IN </h1>
-            </div>    
-                <div class="h2">
-                    <h2> TRY UP TO ONE MONTH FREE </h2>
-                </div>
-                <div class="p1">
-                    <p1></br> HULU </p>
-                </div>
-                </br>
-                <div class="p2">
-                    <p2>Watch thousands of shows and movies,with plans starting at 5.99/month.</p2>
-                </div>
-                </br>
-                <div class="p3">
-                    <p3>START YOUR FREE TRIAL TODAY</p3>
-                </div>
-                <br>
-                <div class="p4">
-                    <p4>Free trial for new & eligible returning subscribers only</p4>
-                </div>
-
-            </div>
 
         </div>
     </div>
+    <!-- Just an image for Ribbon  -->
+    <!-- 1. set the ribbon container display to flex -->
+    <!-- 2. set each div side by side with flexbox  -->
+    <!-- Make sure to give each div an id/class and you can actually name them the same -->
+    <div class="ribbon">
+    <div>
+        <img src="./assets/HULU-DISNEY-ESPN PIC.png " width="200" alt=" ">
     </div>
-    <div class="pic2ribbon">
-        <p>BUNDLE AND SAVE OVER 25%</p> 
-               
-        <img class="pic2" src="./assets/HULU-DISNEY-ESPN PIC.png">
+    <div>
+        <h6>BUNDLE AND SAVE OVER 25%</h6>
+        <h5>Get Hulu, Disney+, and ESPN+ for $12.99/month.</h5>
+        <p>GET BUNDLE</p>
+    </div>
+    <div class="bottom">
+        <!-- Make this image taller so it doesn't look squished -->
+        <img src="./assets/Desktop-1600_Content-Grid (1).jpg " width="100% " height="600 " alt=" " loading="lazy ">
+    </div>
     </div>
 
-    <img class="pic3" src="./assets/Desktop-1600_Content-Grid (1).jpg">
+    <!---3nav--->
 
-
-    <div class="bottompart">
-        <p5>Most popular</p5>
-    </div>
-    <table>
-        <tr>
-
-            <th>Select your plan</th>
-            <th>HULU</th>
-            <th>HULU(No Ads)</th>
-            <th>Hulu + Live TV</th>
-
-        </tr>
-        <tr>
-            <td>No hidden fees, equipement rentals, or installation appointments.**</br> Switch plans or cancel
-                anytime.** </td>
-            <td> 30 DAY FREE TRIAL</br> TRY FOR $0</td>
-            <td>30 DAY FREE TRIAL </td></br>TRY FOR $0</td>
-            <td>7 DAY FREE TRIAL</br> TRY FOR $0</td>
+    
 
 
 
-        </tr>
-        <tr>
-            <td>Monthly price after free trial</td>
-            <td>$5.99/mo</td>
-            <td>$11.99/mo</td>
-            <td>$54.99/mo</td>
-        </tr>
-        <tr>
-            <td>Streaming Library of 80,000+ TV episodes and movies</td>
-            <td>v </td>
-            <td>v </td>
-            <td>v </td>
 
-        </tr>
-        <tr>
-            <td>Most new episodes the day after they air</td>
-            <td>v</td>
-            <td>v</td>
-            <td>v</td>
 
-        </tr>
-        <tr>
-            <td>No adds in streaming</td>
-            <td>-</td>
-            <td>v</td>
-            <td>-</td>
-        </tr>
-        <tr>
-            <td>Download and watch</td>
-            <td>-</td>
-            <td>v</td>
-            <td>-</td>
-        </tr>
-    </table>
 
-    <table>
-        <tr>
-            <th>BROWSE</th>
-            <th></br> TV SHOWS</th>br></th>
-            <th></br> HBO MAX</th>
-            <th></br> Hulu,Disney+, and ESPN+</th>
-            <th>HELP</th>
-        </tr>
-    </table>
 
-    <img src="./assets/facebook.jpg" alt="facebook">
-    <img src="./assets/twitter.jpg">
-    <img src="./assets/youtube.jpg">
-    <img src="./assets/instagram.jpg">
 
-    <div class="footer">
-        <table>
+    <!----->
+    <!-- <nav class 3="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand " href="# ">Select Your Plan
+            No hidden fees, equipment rentals, or installation appointments.
+            Switch plans or cancel anytime.**</a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarText " aria-controls="navbarText " aria-expanded="false " aria-label="Toggle navigation ">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarText ">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link " href="# ">MOST POPULAR
+                        Hulu
+                        30 DAY FREE TRIAL
+                        TRY FOR $0 <span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# ">Hulu (No Ads)
+                        30 DAY FREE TRIAL
+                        TRY FOR $0</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# ">Hulu + Live TV
+                        7 DAY FREE TRIAL
+                        TRY FOR $0</a>
+                </li>
+            </ul>
+            <span class="navbar-text ">
+            Navbar text with an inline element
+          </span>
+        </div>
+    </nav>
+    <!----NAV 3 TABLE 1-->
+    <!-- <table class table1="table table-hover ">
+        <thead>
             <tr>
-                <th>2020 Hulu LLC</th>
-                <th>About Ads</th>
-                <th>Terns of Use</th>
-                <th>Privacy Policy</th>
-                <th>do not Sell My Personal Information</th>
-                <th>Your California Privacy Rights</th>
-                <th></br> TV Parental Guidelines</th>
-                <th></br> Sitemap</th>
-
-
+                <th scope="col "></th>
+                <th scope="col "></th>
+                <th scope="col "></th>
+                <th scope="col "></th>
             </tr>
-        </table>
-
-    </div>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row ">Monthly price after free trial</th>
+                <td>$5.99/mo</td>
+                <td>$11.99/mo</td>
+                <td>$54.99/mo</td>
+            </tr>
+            <tr>
+                <th scope="row ">Streaming Library of 80,000+ TV episodes and moviesStreaming Library of 80,000+ TV episodes and movies</th>
+                <td></td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row ">Most new episodes the day after they air*</th>
+                <td></td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row ">Access to award-winning Hulu Originals</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Watch on your TV, laptop, phone, or tablet</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Up to 6 user profiles</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Watch on 2 different screens at the same time</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">No ads in streaming library</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Download and watch</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Live TV with 65+ top channels. No cable required.
+                </th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Live TV guide to navigate channels</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row ">Record Live TV with 50 hours of Cloud DVR storage</th>
+                <td colspan="2 "></td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--nav 3 button--->
+    <!-- <H6>*For current-season shows in the streaming library only **Switches from Live TV to Hulu take effect as of the next billing cycle</H6>
+    <button class nav3="btn w-50 ">
+        <div class="col-lg-6 col-md col-12 ">
+          <a href="# ">SHOW ADD-ONS</a>
+            </button>
+    <!--Table 2-->
+    <!-- <table class="table table-borderless ">
+        <thead>
+            <tr>
+                <th scope="col ">BROWSE</th>
+                <th scope="col "></th>
+                <th scope="col "></th>
+                <th scope="col "></th>
+                <th scope="col "> HELP</th>
+                <th scope="col ">About us</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row ">Streaming Library</th>
+                <td>TV shows</td>
+                <td>HBO Max</td>
+                <td>Hulu,Dinsney+, and</br>
+                    </br>
+                    </br> ESPN+</td>
+                <td>Account & Billing</td>
+                <td>press</td>
+            </tr>
+            <tr>
+                <th scope="row ">Live TV</th>
+                <td>Movies</td>
+                <td>Cinemax</td>
+                <td></td>
+                <td>Plans & Pricing</td>
+                <td> Jobs</td>
+            </tr>
+            <tr>
+                <th scope="row ">Live NEWS</th>
+                <td colspan="2 ">Originals</td> -->
+                <!-- <td>showtime</td>
+                <td>Disney bundle with</br> hulu(No Ads)
+                </td>
+                <td>supported <br> Devices</td>
+                <td>contact</td>
+            </tr>
+            <tr>
+                <th scope="row ">Live sports</th>
+                <td colspan="2 ">Networks</td>
+                <td>STARZ</td>
+                <td> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row "></th>
+                <td colspan="2 ">kids</td>
+                <td></td>
+                <td>Disney bundle with</br> hulu(No Ads)
+                </td>
+                <td>Accessibilty</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row "></th>
+                <td colspan="2 ">FX on Hulu</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+        <!-- </tbody>
+    </table> 
 </body>
+</hr>
 
-</html>
+<!----social media-->
+<!-- <img src="./assets/facebook.jpg " class="img-fluid " alt="Responsive image ">
+
+
+
+
+<img src="./assets/twitter.jpg " alt=" ">
+<img src="./assets/instagram.jpg " alt=" ">
+<img src="./assets/youtube.jpg " alt=" "> --> --> -->
+
+<!--footer---->
+
+<!-- <table class="table table-borderless ">
+    <thead>
+        <tr>
+            <th scope="col "></th>
+            <th scope="col "> </th>
+            <th scope="col "> </th>
+            <th scope="col "></th>
+            <th scope="col "></th>
+            <th scope="col "></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row ">© 2020 Hulu, LLC</th>
+            <td>About Ads</td>
+            <td> Terms of Use</td>
+            <td> Privacy Policy</td>
+            <td>Do Not Sell My Personal Information</td>
+            <td>Your California Privacy Rights</td>
+            <td>
+                </br>TV Parental Guidelines</td>
+            <td>
+                </br> Sitemap</td>
+
+        </tr>
+
+    </tbody>
+</table> --> -->
+
+</html>>
